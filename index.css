@@ -10,15 +10,6 @@ body {
 	z-index: 0;
 }
 
-#cornhole1 {
-    /* Image source: https://upload.wikimedia.org/wikipedia/commons/f/f2/Cornhole,_Homerville.JPG */
-	background: url("index_bkgrnd/cornhole1.jpg") no-repeat center center fixed;
-	-webkit-background-size: cover;
-	-moz-background-size: cover;
-	-o-background-size: cover;
-	background-size: cover;
-}
-
 #cornhole2 {
     /* Image source: https://clubrunner.blob.core.windows.net/00000008999/Images/Cornhole-5.jpg */
 	background: url("index_bkgrnd/cornhole2.jpg") no-repeat center center fixed;
