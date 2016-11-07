@@ -1,0 +1,9 @@
+body {
+	background: #646464;
+}
+
+.body div {
+	padding-left: 20px;
+	padding-right: 20px;
+	padding-bottom: 20px;
+}

@@ -1,0 +1,28 @@
+body {
+	background: #93a7b3;
+}
+
+.body div {
+	display: inline-block;
+}
+
+.sidebar {
+	position: fixed;
+	width: 20%;
+}
+
+.instructions {
+	position: relative;
+	left: 20%;
+	width: 75%;
+}
+
+.instructions ul li {
+	margin-top: 20px;
+	margin-bottom: 10px;
+}
+
+.instructions ol li {
+	margin-top: 30px;
+	margin-bottom: 30px;
+}

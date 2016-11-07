@@ -1,3 +1,7 @@
+body {
+	background-color: #660000;
+}
+
 /* Transitioning Background */
 .background-images {
 	position: fixed;
@@ -7,6 +11,7 @@
 }
 
 #cornhole1 {
+    /* Image source: https://upload.wikimedia.org/wikipedia/commons/f/f2/Cornhole,_Homerville.JPG */
 	background: url("index_bkgrnd/cornhole1.jpg") no-repeat center center fixed;
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
@@ -15,6 +20,7 @@
 }
 
 #cornhole2 {
+    /* Image source: https://clubrunner.blob.core.windows.net/00000008999/Images/Cornhole-5.jpg */
 	background: url("index_bkgrnd/cornhole2.jpg") no-repeat center center fixed;
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
@@ -23,6 +29,7 @@
 }
 
 #cornhole3 {
+    /* Image source: https://s-media-cache-ak0.pinimg.com/originals/16/ce/6c/16ce6c5a6f8c63692f12e9e1323f856f.jpg */
 	background: url("index_bkgrnd/cornhole3.jpg") no-repeat center center fixed;
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
@@ -31,7 +38,17 @@
 }
 
 #cornhole4 {
+    /* Image source: http://www.sandandwaterexpo.com/wp-content/uploads/2015/05/cornhole-tournament.jpg */
 	background: url("index_bkgrnd/cornhole4.jpg") no-repeat center center fixed;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+}
+
+#cornhole5 {
+    /* Image source: http://unitedsocialsports.com/wp-content/uploads/2016/04/cornhole_cleaned-1.jpg */
+	background: url("index_bkgrnd/cornhole5.jpg") no-repeat center center fixed;
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
 	-o-background-size: cover;
@@ -50,6 +67,14 @@
 }
 
 /* Main part of the page */
+.body {
+	flex-wrap: wrap;
+	justify-content: center;
+    width: 80%;
+	margin: auto;
+    background-color: rgba(128, 128, 128, 0.5);
+}
+
 .body * {
     color: white;
 	display: flex;
@@ -65,4 +90,26 @@
 
 .body h3 {
 	font-size: 32px;
+}
+
+.footer {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	clear: left;
+	width: 15%;
+	margin: auto;
+	background-color: rgba(128, 128, 128, 0.5);
+}
+
+.footer h5 {
+	margin-left: 10px;
+}
+
+.footer h5 a:-webkit-any-link {
+    color: blue;
+}
+
+.footer h5 a:-moz-any-link {
+    color: blue;
 }

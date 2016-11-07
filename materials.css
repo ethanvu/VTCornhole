@@ -1,0 +1,13 @@
+body {
+	background: #9d9879;
+}
+
+.body {
+	margin: 20px;
+}
+
+td {
+	padding: 25px;
+	border: solid;
+	border-color: #646464;
+}
