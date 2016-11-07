@@ -12,7 +12,7 @@ body {
 
 #cornhole1 {
     /* Image source: https://upload.wikimedia.org/wikipedia/commons/f/f2/Cornhole,_Homerville.JPG */
-	background: url("index_bkgrnd/cornhole1.JPG") no-repeat center center fixed;
+	background: url("index_bkgrnd/cornhole1.jpg") no-repeat center center fixed;
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
 	-o-background-size: cover;
