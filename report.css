@@ -1,3 +1,5 @@
 object {
-	height: 500px;
+	position: relative;
+	top: -16px;
+	height: 530px;
 }
